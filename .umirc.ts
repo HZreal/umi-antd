@@ -29,6 +29,11 @@ export default defineConfig({
       path: '/table',
       component: './Table',
     },
+    {
+      name: ' My Hello',
+      path: '/hello',
+      component: './MyHello',
+    },
   ],
   npmClient: 'npm',
 });
